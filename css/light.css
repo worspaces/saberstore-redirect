@@ -1,0 +1,263 @@
+body,
+html {
+  margin: 0px;
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #f7f5f5;
+  color: #fff;
+}
+.top{
+  width: 100%;
+  height: 480px;
+  background-color:#e6e6e6;
+}
+.top img{
+  width: 138px;
+  height: 138px;
+  border-radius: 100px;
+}
+.top h1{
+  color: black;
+  font-weight: 700;
+}
+.top h2 {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+i {
+  color: black;
+  padding: 7px;
+}
+i:hover {
+  color: #6b6969;
+  padding: 7px;
+}
+  /*  COLUMN SETUP  */
+  .col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+  }
+  .col:first-child {
+    margin-left: 0;
+  }
+  
+  /*  GROUPING  */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    zoom: 1; /* For IE 6/7 */
+  }
+  /*  GRID OF FOUR  */
+  .span_4_of_4 {
+    width: 100%;
+  }
+  .span_3_of_4 {
+    width: 74.6%;
+  }
+  .span_2_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4 {
+    width: 23.8%;
+  }
+  
+  /*  GO FULL WIDTH BELOW 480 PIXELS */
+  @media only screen and (max-width: 480px) {
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+    .span_1_of_4,
+    .span_2_of_4,
+    .span_3_of_4,
+    .span_4_of_4 {
+      width: 100%;
+    }
+  }
+  
+  iframe {
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+  .title h1{
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+  
+  .twitter-div {
+    width: 95%;
+    margin: 0px;
+  }
+  
+  .span_2_of_2 {
+    width: 100%;
+  }
+  .span_1_of_2 {
+    width: 49.2%;
+  }
+  
+  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+  
+  @media only screen and (max-width: 480px) {
+    .col {
+      margin: 1% 0 1% 0%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .span_2_of_2,
+    .span_1_of_2 {
+      width: 100%;
+    }
+  }
+  
+  .card {
+      background-color: #e0dada;
+      border-radius: 10px;
+      margin: 15px;
+      border-width: 4px;
+      transition: transform .2s; 
+  }
+  .card:hover {
+    transform: scale(1.03); 
+  }
+  .card img {
+    width: 140px;
+    border-radius: 30px;
+    height: 140px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .card h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: black;
+  }
+  .card h2 {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px;
+    float: left;
+    margin-left: -25px;
+  }
+  .card h3 {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px;
+    float: left;
+    margin-left: -53px;
+  }
+  .card h4 {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px;
+    float: left;
+    margin-left: -6px;
+  }
+  .card h5 {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto 30px;
+    float: left;
+    margin-left: -52px;
+  }
+  .card p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: black;
+    opacity: 0.6;
+  }
+  
+  .card a {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #232323;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+  }
+ .card a:hover {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    background-color: #1f1e1e;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+  }
+  
+ .seprator{
+     width: 100%;
+     height: 40px;
+ }
+ .seprator h1{
+   padding-top: 8px;
+    font-size: 25px;
+    margin-left: 20px;
+    top: 50%;
+  }
+  .dark-mode {
+    background-color: #111;
+    color: white;
+  }
+  .btn-toggle {
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    background-color: #e0dada;
+    transition: width 200ms ease-in-out;
+}
+.btn-toggle:hover{
+  width: 210px;
+}
+a {
+  text-decoration: none;
+}
