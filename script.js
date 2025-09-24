@@ -15,9 +15,9 @@ const theme = document.querySelector("#theme-link");
 btn.addEventListener("click", function() {
   // Swap out the URL for the different stylesheets
   if (theme.getAttribute("href") == "css/light.css") {
-    theme.href = "css/dark.css";
-  } else {
     theme.href = "css/light.css";
+  } else {
+    theme.href = "css/dark.css";
   }
 });
 
