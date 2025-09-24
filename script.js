@@ -23,7 +23,7 @@ btn.addEventListener("click", function() {
 
 function change() {
     if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-      theme.href = "css/dark.css";
+      theme.href = "css/light.css";
     } else {
       theme.href = "css/light.css";
     }
